@@ -19,6 +19,7 @@ class SupportController extends Controller
         $validatedData = $request->validate([
             'name' => 'required|string|max:255',
             'email' => 'required|email',
+            'phone' => 'required|string|max:11',
             'subject' => 'required|string|max:255',
             'message' => 'required|string',
         ]);

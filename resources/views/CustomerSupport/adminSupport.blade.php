@@ -17,6 +17,7 @@
                 <th>ID</th>
                 <th>Name</th>
                 <th>Email</th>
+                <th>Phone</th>
                 <th>Subject</th>
                 <th>Message</th>
                 <th>Submitted At</th>
@@ -28,6 +29,7 @@
                     <td>{{ $inquiry->id }}</td>
                     <td>{{ $inquiry->name }}</td>
                     <td>{{ $inquiry->email }}</td>
+                    <td>{{ $inquiry->phone }}</td>
                     <td>{{ $inquiry->subject }}</td>
                     <td>{{ $inquiry->message }}</td>
                     <td>{{ $inquiry->created_at->format('d M Y, h:i A') }}</td>

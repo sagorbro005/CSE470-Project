@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 30px;
+    padding: 12px 30px;
     color: white;
     background-color: #61CE70;
     border-bottom: 2px solid #ddd;
@@ -27,16 +27,16 @@ body {
 
 .contact-info p {
     margin: 0;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .container {
-    /* display: flex; */
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 30px;
-    color: white;
     background-color: #61CE70;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 550px;
+    padding: 20px 30px;
+    color: white;
     border-bottom: 2px solid #ddd;
 }
 
@@ -47,6 +47,7 @@ body {
 
 .alert {
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 form .form-label {

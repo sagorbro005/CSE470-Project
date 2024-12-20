@@ -32,6 +32,10 @@
             <input type="email" class="form-control" id="email" name="email" required>
         </div>
         <div class="mb-3">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input type="tel" class="form-control" id="phone" name="phone" required>
+        </div>
+        <div class="mb-3">
             <label for="subject" class="form-label">Subject</label>
             <input type="text" class="form-control" id="subject" name="subject" required>
         </div>
